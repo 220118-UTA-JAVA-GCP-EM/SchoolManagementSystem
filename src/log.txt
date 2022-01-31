@@ -1,0 +1,222 @@
+2022-01-03 11:02:33 INFO  LoggingSingleton:19 - Person: Person{id=1, type=TEACHER, first='Bob', last='Ross', email='Bob.Ross@school.edu', password='password'} 
+ was created
+2022-01-03 11:02:33 INFO  LoggingSingleton:19 - Person: Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='Valerie.Frizzle@school.edu', password='password'} 
+ was created
+2022-01-03 11:02:33 INFO  LoggingSingleton:19 - Person: Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='Timmy.Turner@school.edu', password='password'} 
+ was created
+2022-01-03 11:02:33 INFO  LoggingSingleton:19 - Person: Person{id=4, type=STUDENT, first='Morty', last='Smith', email='Morty.Smith@school.edu', password='password'} 
+ was created
+2022-01-03 11:02:33 INFO  LoggingSingleton:19 - Person: Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='Jimmy.Neutron@school.edu', password='password'} 
+ was created
+2022-01-03 11:03:01 INFO  LoggingSingleton:19 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='Bob.Ross@school.edu', password='password'}
+ was created
+2022-01-03 11:03:01 INFO  LoggingSingleton:19 - Person: 
+Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='Valerie.Frizzle@school.edu', password='password'}
+ was created
+2022-01-03 11:03:01 INFO  LoggingSingleton:19 - Person: 
+Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='Timmy.Turner@school.edu', password='password'}
+ was created
+2022-01-03 11:03:01 INFO  LoggingSingleton:19 - Person: 
+Person{id=4, type=STUDENT, first='Morty', last='Smith', email='Morty.Smith@school.edu', password='password'}
+ was created
+2022-01-03 11:03:01 INFO  LoggingSingleton:19 - Person: 
+Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='Jimmy.Neutron@school.edu', password='password'}
+ was created
+2022-01-03 11:03:27 INFO  LoggingSingleton:19 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='Bob.Ross@school.edu', password='password'} was created
+2022-01-03 11:03:27 INFO  LoggingSingleton:19 - Person: 
+Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='Valerie.Frizzle@school.edu', password='password'} was created
+2022-01-03 11:03:27 INFO  LoggingSingleton:19 - Person: 
+Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='Timmy.Turner@school.edu', password='password'} was created
+2022-01-03 11:03:27 INFO  LoggingSingleton:19 - Person: 
+Person{id=4, type=STUDENT, first='Morty', last='Smith', email='Morty.Smith@school.edu', password='password'} was created
+2022-01-03 11:03:27 INFO  LoggingSingleton:19 - Person: 
+Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='Jimmy.Neutron@school.edu', password='password'} was created
+2022-01-03 11:03:59 INFO  LoggingSingleton:22 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} was created
+2022-01-03 11:03:59 INFO  LoggingSingleton:22 - Person: 
+Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} was created
+2022-01-03 11:03:59 INFO  LoggingSingleton:22 - Person: 
+Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'} was created
+2022-01-03 11:03:59 INFO  LoggingSingleton:22 - Person: 
+Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'} was created
+2022-01-03 11:03:59 INFO  LoggingSingleton:22 - Person: 
+Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} was created
+2022-01-03 11:09:11 INFO  LoggingSingleton:22 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} was created
+2022-01-03 11:09:11 INFO  LoggingSingleton:22 - Person: 
+Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} was created
+2022-01-03 11:09:11 INFO  LoggingSingleton:22 - Person: 
+Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'} was created
+2022-01-03 11:09:11 INFO  LoggingSingleton:22 - Person: 
+Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'} was created
+2022-01-03 11:09:11 INFO  LoggingSingleton:22 - Person: 
+Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} was created
+2022-01-03 11:09:11 INFO  LoggingSingleton:22 - New Course created: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=null}
+2022-01-03 11:09:11 INFO  LoggingSingleton:22 - New Course created: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=null}
+2022-01-03 11:09:11 INFO  LoggingSingleton:32 - Person: Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}}
+2022-01-03 11:09:11 WARN  LoggingSingleton:28 - Person: Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} 
+ who is not a teacher was assigned to a course
+2022-01-03 11:10:06 INFO  LoggingSingleton:22 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} was created
+2022-01-03 11:10:06 INFO  LoggingSingleton:22 - Person: 
+Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} was created
+2022-01-03 11:10:06 INFO  LoggingSingleton:22 - Person: 
+Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'} was created
+2022-01-03 11:10:06 INFO  LoggingSingleton:22 - Person: 
+Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'} was created
+2022-01-03 11:10:06 INFO  LoggingSingleton:22 - Person: 
+Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} was created
+2022-01-03 11:10:06 INFO  LoggingSingleton:22 - New Course created: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=null}
+2022-01-03 11:10:06 INFO  LoggingSingleton:22 - New Course created: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=null}
+2022-01-03 11:10:06 INFO  LoggingSingleton:32 - Person: Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}}
+2022-01-03 11:10:06 WARN  LoggingSingleton:28 - Person: Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} 
+ who is not a teacher was assigned to a course
+2022-01-03 11:10:06 INFO  LoggingSingleton:32 - Person: Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'}}
+2022-01-03 11:10:44 INFO  LoggingSingleton:22 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} was created
+2022-01-03 11:10:44 INFO  LoggingSingleton:22 - Person: 
+Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} was created
+2022-01-03 11:10:44 INFO  LoggingSingleton:22 - Person: 
+Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'} was created
+2022-01-03 11:10:44 INFO  LoggingSingleton:22 - Person: 
+Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'} was created
+2022-01-03 11:10:44 INFO  LoggingSingleton:22 - Person: 
+Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} was created
+2022-01-03 11:10:44 INFO  LoggingSingleton:22 - New Course created: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=null}
+2022-01-03 11:10:44 INFO  LoggingSingleton:22 - New Course created: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=null}
+2022-01-03 11:10:44 INFO  LoggingSingleton:32 - Person: Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}}
+2022-01-03 11:10:44 WARN  LoggingSingleton:28 - Person: Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} 
+ who is not a teacher was assigned to a course
+2022-01-03 11:12:52 INFO  LoggingSingleton:22 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} was created
+2022-01-03 11:12:52 INFO  LoggingSingleton:22 - Person: 
+Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} was created
+2022-01-03 11:12:52 INFO  LoggingSingleton:22 - Person: 
+Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'} was created
+2022-01-03 11:12:52 INFO  LoggingSingleton:22 - Person: 
+Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'} was created
+2022-01-03 11:12:52 INFO  LoggingSingleton:22 - Person: 
+Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} was created
+2022-01-03 11:12:52 INFO  LoggingSingleton:22 - New Course created: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=null, topics=[], students=[]}
+2022-01-03 11:12:52 INFO  LoggingSingleton:22 - New Course created: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=null, topics=[], students=[]}
+2022-01-03 11:12:52 INFO  LoggingSingleton:32 - Person: Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}, topics=[], students=[]}
+2022-01-03 11:12:52 WARN  LoggingSingleton:28 - Person: Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} 
+ who is not a teacher was assigned to a course
+2022-01-03 11:12:52 INFO  LoggingSingleton:32 - Person: Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'}, topics=[], students=[]}
+2022-01-03 11:16:06 INFO  LoggingSingleton:22 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} was created
+2022-01-03 11:16:06 INFO  LoggingSingleton:22 - Person: 
+Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} was created
+2022-01-03 11:16:06 INFO  LoggingSingleton:22 - Person: 
+Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'} was created
+2022-01-03 11:16:06 INFO  LoggingSingleton:22 - Person: 
+Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'} was created
+2022-01-03 11:16:06 INFO  LoggingSingleton:22 - Person: 
+Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} was created
+2022-01-03 11:16:06 INFO  LoggingSingleton:22 - New Course created: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=null, topics=[], students=[]}
+2022-01-03 11:16:06 INFO  LoggingSingleton:22 - New Course created: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=null, topics=[], students=[]}
+2022-01-03 11:16:06 INFO  LoggingSingleton:32 - Person: Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}, topics=[], students=[]}
+2022-01-03 11:16:06 WARN  LoggingSingleton:28 - Person: Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} 
+ who is not a teacher was assigned to a course
+2022-01-03 11:16:06 INFO  LoggingSingleton:32 - Person: Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'}, topics=[], students=[]}
+2022-01-03 11:16:06 INFO  LoggingSingleton:45 - New topics added to course: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}, topics=[Painting trees, Painting Mountains, Painting Rivers], students=[Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'}, Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'}]}
+2022-01-03 11:16:06 INFO  LoggingSingleton:45 - New topics added to course: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'}, topics=[Hypothesis, Testing, Experients], students=[Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'}, Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'}, Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'}]}
+2022-01-03 11:21:16 INFO  LoggingSingleton:22 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} was created
+2022-01-03 11:21:16 INFO  LoggingSingleton:22 - Person: 
+Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} was created
+2022-01-03 11:21:16 INFO  LoggingSingleton:22 - Person: 
+Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'} was created
+2022-01-03 11:21:16 INFO  LoggingSingleton:22 - Person: 
+Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'} was created
+2022-01-03 11:21:16 INFO  LoggingSingleton:22 - Person: 
+Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} was created
+2022-01-03 11:21:16 INFO  LoggingSingleton:22 - New Course created: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=null, topics=[], students=[]}
+2022-01-03 11:21:16 INFO  LoggingSingleton:22 - New Course created: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=null, topics=[], students=[]}
+2022-01-03 11:21:16 INFO  LoggingSingleton:32 - Person: Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}, topics=[], students=[]}
+2022-01-03 11:21:16 WARN  LoggingSingleton:28 - Person: Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} 
+ who is not a teacher was assigned to a course
+2022-01-03 11:21:16 INFO  LoggingSingleton:32 - Person: Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'}, topics=[], students=[]}
+2022-01-03 11:21:16 INFO  LoggingSingleton:45 - New topics added to course: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}, topics=[Painting trees, Painting Mountains, Painting Rivers], students=[Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'}, Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'}]}
+2022-01-03 11:21:16 INFO  LoggingSingleton:45 - New topics added to course: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'}, topics=[Hypothesis, Testing, Experients], students=[Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'}, Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'}, Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'}]}
+2022-01-03 11:21:16 INFO  LoggingSingleton:18 - New assignment created: com.example.models.Assignment@12edcd21
+2022-01-03 11:21:16 INFO  LoggingSingleton:18 - New assignment created: com.example.models.Assignment@34c45dca
+2022-01-03 11:21:16 INFO  LoggingSingleton:34 - Assignment: com.example.models.Assignment@12edcd21 
+ Was submitted on time
+2022-01-03 11:21:16 WARN  LoggingSingleton:30 - Assignment: com.example.models.Assignment@34c45dca 
+ Was submitted late
+2022-01-03 11:21:16 INFO  LoggingSingleton:46 - Assignment: com.example.models.Assignment@12edcd21 
+ Was given the grade: 100.0
+2022-01-03 11:21:16 INFO  LoggingSingleton:46 - Assignment: com.example.models.Assignment@34c45dca 
+ Was given the grade: 80.0
+2022-01-03 11:21:38 INFO  LoggingSingleton:22 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} was created
+2022-01-03 11:21:38 INFO  LoggingSingleton:22 - Person: 
+Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} was created
+2022-01-03 11:21:38 INFO  LoggingSingleton:22 - Person: 
+Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'} was created
+2022-01-03 11:21:38 INFO  LoggingSingleton:22 - Person: 
+Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'} was created
+2022-01-03 11:21:38 INFO  LoggingSingleton:22 - Person: 
+Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} was created
+2022-01-03 11:21:38 INFO  LoggingSingleton:22 - New Course created: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=null, topics=[], students=[]}
+2022-01-03 11:21:38 INFO  LoggingSingleton:22 - New Course created: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=null, topics=[], students=[]}
+2022-01-03 11:21:38 INFO  LoggingSingleton:32 - Person: Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}, topics=[], students=[]}
+2022-01-03 11:21:38 WARN  LoggingSingleton:28 - Person: Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'} 
+ who is not a teacher was assigned to a course
+2022-01-03 11:21:38 INFO  LoggingSingleton:32 - Person: Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'}, topics=[], students=[]}
+2022-01-03 11:21:38 INFO  LoggingSingleton:45 - New topics added to course: Course{courseId=1, subject='Art', number=120, name='Intro to Art', teacher=Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}, topics=[Painting trees, Painting Mountains, Painting Rivers], students=[Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'}, Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'}]}
+2022-01-03 11:21:38 INFO  LoggingSingleton:45 - New topics added to course: Course{courseId=2, subject='Science', number=150, name='Intro to Science', teacher=Person{id=2, type=TEACHER, first='Valerie', last='Frizzle', email='valerie.frizzle@school.edu', password='password'}, topics=[Hypothesis, Testing, Experients], students=[Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'}, Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'}, Person{id=5, type=STUDENT, first='Jimmy', last='Neutron', email='jimmy.neutron@school.edu', password='password'}]}
+2022-01-03 11:21:38 INFO  LoggingSingleton:18 - New assignment created: Assignment{assignmentId=1, student=Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-01-05}
+2022-01-03 11:21:38 INFO  LoggingSingleton:18 - New assignment created: Assignment{assignmentId=2, student=Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-01-01}
+2022-01-03 11:21:38 INFO  LoggingSingleton:34 - Assignment: Assignment{assignmentId=1, student=Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'}, grade=0.0, done=true, pastDue=false, due=2022-01-05} 
+ Was submitted on time
+2022-01-03 11:21:38 WARN  LoggingSingleton:30 - Assignment: Assignment{assignmentId=2, student=Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'}, grade=0.0, done=true, pastDue=true, due=2022-01-01} 
+ Was submitted late
+2022-01-03 11:21:38 INFO  LoggingSingleton:46 - Assignment: Assignment{assignmentId=1, student=Person{id=3, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'}, grade=100.0, done=true, pastDue=false, due=2022-01-05} 
+ Was given the grade: 100.0
+2022-01-03 11:21:38 INFO  LoggingSingleton:46 - Assignment: Assignment{assignmentId=2, student=Person{id=4, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'}, grade=80.0, done=true, pastDue=true, due=2022-01-01} 
+ Was given the grade: 80.0
+2022-01-04 14:26:00 INFO  LoggingSingleton:29 - Person: 
+Person{id=1, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} was created
+2022-01-04 14:27:05 INFO  LoggingSingleton:29 - Person: 
+Person{id=1, type=STUDENT, first='Jimmy', last='Nuetron', email='jimmy.nuetron@school.edu', password='password'} was created
+2022-01-04 14:27:58 INFO  LoggingSingleton:29 - Person: 
+Person{id=1, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'} was created
+2022-01-04 14:28:19 INFO  LoggingSingleton:29 - Person: 
+Person{id=1, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'} was created
+2022-01-04 14:32:49 INFO  LoggingSingleton:29 - Person: 
+Person{id=1, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'} was created
+2022-01-04 14:44:44 INFO  LoggingSingleton:33 - New Course created: Course{courseId=1, subject='Art', number=150, name='Intro to art', teacher=null, topics=[], students=[]}
+2022-01-04 15:04:08 INFO  LoggingSingleton:44 - Person: Person{id=12, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'} 
+ was assigned to the course: Course{courseId=4, subject='Art', number=150, name='Intro to art', teacher=Person{id=12, type=TEACHER, first='Bob', last='Ross', email='bob.ross@school.edu', password='password'}, topics=[], students=[]}
+2022-01-04 15:31:51 INFO  LoggingSingleton:67 - New topics added to course: Course{courseId=4, subject='Art', number=150, name='Intro to art', teacher=Person{id=12, type=null, first='null', last='null', email='null', password='null'}, topics=[Painting Trees, Painting Mountains, Painting Cabins], students=[]}
+2022-01-04 15:48:12 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=16, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-01-05}
+2022-01-04 16:16:48 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=0, student=Person{id=13, type=STUDENT, first='Jimmy', last='Nuetron', email='jimmy.nuetron@school.edu', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-01-05}
+2022-01-04 16:16:49 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=0, student=Person{id=14, type=STUDENT, first='Timmy', last='Turner', email='timmy.turner@school.edu', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-01-05}
+2022-01-04 16:16:49 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=0, student=Person{id=15, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-01-05}
+2022-01-04 16:24:00 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=16, type=STUDENT, first='Morty', last='Smith', email='morty.smith@school.edu', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-01-02}
+2022-01-04 16:28:31 INFO  LoggingSingleton:50 - Assignment: Assignment{assignmentId=3, student=Person{id=16, type=null, first='null', last='null', email='null', password='null'}, grade=0.0, done=true, pastDue=false, due=2022-01-05} 
+ Was submitted on time
+2022-01-04 16:29:40 INFO  LoggingSingleton:50 - Assignment: Assignment{assignmentId=3, student=Person{id=16, type=null, first='null', last='null', email='null', password='null'}, grade=0.0, done=true, pastDue=false, due=2022-01-05} 
+ Was submitted on time
+2022-01-04 16:30:24 WARN  LoggingSingleton:45 - Assignment: Assignment{assignmentId=7, student=Person{id=16, type=null, first='null', last='null', email='null', password='null'}, grade=0.0, done=true, pastDue=true, due=2022-01-02} 
+ Was submitted late
+2022-01-04 16:35:27 INFO  LoggingSingleton:64 - Assignment: Assignment{assignmentId=3, student=Person{id=16, type=null, first='null', last='null', email='null', password='null'}, grade=100.0, done=true, pastDue=false, due=2022-01-05} 
+ Was given the grade: 100.0
+2022-01-04 16:35:59 INFO  LoggingSingleton:64 - Assignment: Assignment{assignmentId=7, student=Person{id=16, type=null, first='null', last='null', email='null', password='null'}, grade=80.0, done=true, pastDue=true, due=2022-01-02} 
+ Was given the grade: 80.0
