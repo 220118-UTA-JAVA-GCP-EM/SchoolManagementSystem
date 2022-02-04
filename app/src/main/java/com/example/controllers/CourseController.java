@@ -38,6 +38,9 @@ public class CourseController {
     };
 
     public Handler getAllCourses = (context) -> {
+        context.header("Access-Control-Expose-Headers", "*");
+
+        context.header("name", "value");
 
         context.result(mapper.writeValueAsString(cs.getAllCourses()));
 

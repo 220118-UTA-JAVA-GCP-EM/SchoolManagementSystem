@@ -4,10 +4,7 @@ import com.example.models.Person;
 import com.example.models.Type;
 import com.example.utils.ConnectionUtil;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -80,7 +77,7 @@ public class PersonDaoJDBC implements PersonDao{
             ResultSet rs = s.executeQuery(sql);
 
             while(rs.next()){
-                Person p = new Person(rs.getInt(1), Type.values()[rs.getInt(2)], rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6));
+                Person p = new Person(rs.getInt(1), Type.values()[rs.getInt(2)-1], rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6));
                 pList.add(p);
             }
 
@@ -128,5 +125,34 @@ public class PersonDaoJDBC implements PersonDao{
         } catch (SQLException e){
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public Person readPersonByEmail(String email) {
+        Person p = null;
+
+        try{
+            Connection con = conUtil.getConntection();
+
+            String sql = "SELECT * FROM people WHERE email=?";
+
+            PreparedStatement ps = con.prepareStatement(sql);
+
+            ps.setString(1, email);
+
+            ResultSet rs = ps.executeQuery();
+
+            while(rs.next()){
+                p = new Person(rs.getInt(1), Type.values()[rs.getInt(2)-1], rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6));
+            }
+
+            con.close();
+
+        } catch(SQLException e){
+            e.printStackTrace();
+        }
+
+        return p;
+
     }
 }

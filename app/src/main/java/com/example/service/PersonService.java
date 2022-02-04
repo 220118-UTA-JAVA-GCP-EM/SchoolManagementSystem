@@ -51,4 +51,8 @@ public class PersonService {
         pd.deletePerson(p);
     }
 
+    public Person getPersonByEmail(String email){
+        return pd.readPersonByEmail(email);
+    }
+
 }

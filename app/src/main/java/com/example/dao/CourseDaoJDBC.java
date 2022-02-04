@@ -134,7 +134,7 @@ public class CourseDaoJDBC implements CourseDao {
             ResultSet rs = ps.executeQuery();
 
             while(rs.next()){
-                Person s = new Person(rs.getInt(1), Type.values()[rs.getInt(4)], rs.getString(5),rs.getString(6), rs.getString(7), rs.getString(8));
+                Person s = new Person(rs.getInt(1), Type.values()[rs.getInt(4)-1], rs.getString(5),rs.getString(6), rs.getString(7), rs.getString(8));
                 sList.add(s);
             }
 

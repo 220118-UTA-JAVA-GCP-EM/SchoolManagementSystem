@@ -1,20 +1,19 @@
 package com.example;
 
 import com.example.controllers.AssignmentController;
+import com.example.controllers.AuthController;
 import com.example.controllers.CourseController;
 import com.example.controllers.PersonController;
 import com.example.dao.*;
 import com.example.exceptions.AssignmentPastDueException;
 import com.example.models.Person;
-import com.example.routes.AssignmentRoutes;
-import com.example.routes.CourseRoutes;
-import com.example.routes.PersonRoutes;
-import com.example.routes.Route;
+import com.example.routes.*;
 import com.example.service.AssignmentService;
+import com.example.service.AuthService;
 import com.example.service.CourseService;
 import com.example.service.PersonService;
-import com.google.gson.Gson;
 import io.javalin.Javalin;
+import io.javalin.http.staticfiles.Location;
 
 public class JavalinDriver {
 
@@ -30,27 +29,36 @@ public class JavalinDriver {
     private static AssignmentService as = new AssignmentService(ad);
     private static AssignmentController ac = new AssignmentController(as, cs, ps);
 
+    private static AuthService aus = new AuthService(pd);
+    private static AuthController auc = new AuthController(aus, ps);
+
     public static void main(String[] args){
 
         //Establish our Javalin app
-        Javalin app = Javalin.create(config -> config.enableCorsForAllOrigins());
+        Javalin app = Javalin.create(config -> {
+            config.enableCorsForAllOrigins();
+            config.addStaticFiles("/static", Location.CLASSPATH);
+        });
 
         //Creating our first handler, but for the rest we are going to break the routes into controllers to handle functionality for each of our services
         app.get("/hello", (ctx) -> ctx.result("Hello we are making our first get!"));
 
         //To create post requests we will use gson to parse the data that we sent in the request body
+        /*
         app.post("/hello", (ctx) -> {
             Gson gson = new Gson();
             SamplePost u = gson.fromJson(ctx.body(), SamplePost.class);
             System.out.println("Got this message from postman " + u.toString());
             ctx.result("Received our first message in a post");
         });
+        */
 
         Route person = new PersonRoutes(pc);
         Route course = new CourseRoutes(cc);
         Route assignment = new AssignmentRoutes(ac);
+        Route auth = new AuthRoutes(auc);
 
-        Route.establishRoutes(app, person, assignment, course);
+        Route.establishRoutes(app, person, assignment, course, auth);
 
         app.error(403, (ctx) -> {
             ctx.result("The request you submitted is invalid");

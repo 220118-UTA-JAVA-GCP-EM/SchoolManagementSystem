@@ -14,4 +14,6 @@ public interface PersonDao {
     public void updatePerson(Person p);
 
     public void deletePerson(Person p);
+
+    Person readPersonByEmail(String email);
 }

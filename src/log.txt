@@ -220,3 +220,7 @@ Person{id=1, type=STUDENT, first='Morty', last='Smith', email='morty.smith@schoo
  Was given the grade: 100.0
 2022-01-04 16:35:59 INFO  LoggingSingleton:64 - Assignment: Assignment{assignmentId=7, student=Person{id=16, type=null, first='null', last='null', email='null', password='null'}, grade=80.0, done=true, pastDue=true, due=2022-01-02} 
  Was given the grade: 80.0
+2022-02-03 11:14:16 INFO  LoggingSingleton:33 - New Course created: Course{courseId=0, subject='Testing', number=150, name='Intro To Testing', teacher=null, topics=[], students=[]}
+2022-02-03 11:27:43 INFO  LoggingSingleton:33 - New Course created: Course{courseId=0, subject='Prog', number=155, name='Intro to Programming', teacher=null, topics=[], students=[]}
+2022-02-03 11:29:23 INFO  LoggingSingleton:33 - New Course created: Course{courseId=0, subject='Prog', number=200, name='Java', teacher=null, topics=[], students=[]}
+2022-02-03 11:34:30 INFO  LoggingSingleton:33 - New Course created: Course{courseId=0, subject='Reading', number=205, name='Reading Comp', teacher=null, topics=[], students=[]}
