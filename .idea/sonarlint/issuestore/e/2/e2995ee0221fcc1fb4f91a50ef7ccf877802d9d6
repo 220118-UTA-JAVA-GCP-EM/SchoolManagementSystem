@@ -1,0 +1,19 @@
+
+P
+java:S1611"5Remove the parentheses around the "context" parameter(ò•ğ¦ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù×êóşÿÿÿÿ
+K
+java:S1611+"5Remove the parentheses around the "context" parameter(Êö«
+M	java:S106."9Replace this use of System.out or System.err by a logger.(’ô—
+R
+java:S1611;"5Remove the parentheses around the "context" parameter(èÄ˜­8¾ò´¬ì/
+l
+java:S1104"QMake login a static final constant or non-public and provide accessors if needed.(ò•ğ¦ùÿÿÿÿ
+h
+java:S1104+"RMake verify a static final constant or non-public and provide accessors if needed.(Êö«
+o
+java:S1104;"RMake logout a static final constant or non-public and provide accessors if needed.(èÄ˜­8Áò´¬ì/
+l
+java:S1104D"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëıÿÿÿÿ
+o
+java:S1104E"TMake password a static final constant or non-public and provide accessors if needed.(¼şòüÿÿÿÿ
