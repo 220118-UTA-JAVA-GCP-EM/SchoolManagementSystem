@@ -3,7 +3,6 @@ package com.example.dao;
 import com.example.models.Assignment;
 import com.example.models.Person;
 import com.example.utils.ConnectionUtil;
-import jdk.nashorn.internal.codegen.CompilerConstants;
 
 import java.math.BigDecimal;
 import java.sql.*;
