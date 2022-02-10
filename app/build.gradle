@@ -10,6 +10,7 @@ plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'java'
     id 'application'
+    id "org.sonarqube" version "3.3"
 }
 
 repositories {
@@ -61,4 +62,12 @@ jar {
 application {
     // Define the main class for the application.
     mainClass = 'com.example.JavalinDriver'
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "220118-UTA-JAVA-GCP-EM_SchoolManagementSystem"
+        property "sonar.organization", "220118-uta-java-gcp-em"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
 }
