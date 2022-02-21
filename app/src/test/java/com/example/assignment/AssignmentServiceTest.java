@@ -26,6 +26,7 @@ public class AssignmentServiceTest {
 
     @Before
     public void initMocks(){
+        System.out.println("Print before");
         MockitoAnnotations.openMocks(this);
     }
 

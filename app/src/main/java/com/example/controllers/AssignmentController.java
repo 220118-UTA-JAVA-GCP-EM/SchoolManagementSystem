@@ -8,10 +8,14 @@ import com.example.service.CourseService;
 import com.example.service.PersonService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.http.Handler;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Conditional;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Component("AssignmentControllerBean")
 public class AssignmentController {
 
     private AssignmentService as;
@@ -19,6 +23,7 @@ public class AssignmentController {
     private PersonService ps;
     private ObjectMapper mapper = new ObjectMapper();
 
+    @Autowired
     public AssignmentController(AssignmentService as, CourseService cs, PersonService ps){
         this.as = as;
         this.cs = cs;

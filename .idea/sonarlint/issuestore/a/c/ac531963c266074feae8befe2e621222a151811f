@@ -1,22 +1,0 @@
-
-P
-java:S1611"5Remove the parentheses around the "context" parameter(“‡˜åûÿÿÿÿ
-K
-java:S1611*"5Remove the parentheses around the "context" parameter(Ú¢…ó
-N	java:S1060"9Replace this use of System.out or System.err by a logger.(Áß‡Ü
-K
-java:S1611>"5Remove the parentheses around the "context" parameter(Žœ¬¸
-K
-java:S1611F"5Remove the parentheses around the "context" parameter(¥¤ªž
-P
-java:S1611O"5Remove the parentheses around the "context" parameter(®„åóýÿÿÿÿ
-w
-java:S1104"\Make createAssignment a static final constant or non-public and provide accessors if needed.(“‡˜åûÿÿÿÿ
-{
-java:S1104*"eMake createAssignmentForCourse a static final constant or non-public and provide accessors if needed.(Ú¢…ó
-s
-java:S1104>"]Make getAssignmentById a static final constant or non-public and provide accessors if needed.(Žœ¬¸
-r
-java:S1104F"\Make submitAssignment a static final constant or non-public and provide accessors if needed.(¥¤ªž
-v
-java:S1104O"[Make gradeAssignment a static final constant or non-public and provide accessors if needed.(®„åóýÿÿÿÿ

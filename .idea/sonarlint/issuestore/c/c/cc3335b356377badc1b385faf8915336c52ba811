@@ -1,0 +1,20 @@
+
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
+T	java:S106•"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
+K
+java:S1128	"5Remove this unused import 'java.text.ParseException'.(ñ®ï•
+M
+java:S1128
+"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ
+K
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ
+f
+java:S2095“"OUse try-with-resources or close this "CallableStatement" in a "finally" clause.(ºŞá
+e
+java:S2095"OUse try-with-resources or close this "CallableStatement" in a "finally" clause.(ºŞá
+e
+java:S2095@"OUse try-with-resources or close this "CallableStatement" in a "finally" clause.(ºŞá
+f
+java:S2095³"OUse try-with-resources or close this "CallableStatement" in a "finally" clause.(ºŞá
+e
+java:S2095i"OUse try-with-resources or close this "CallableStatement" in a "finally" clause.(ºŞá

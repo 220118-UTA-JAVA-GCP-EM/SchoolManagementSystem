@@ -8,17 +8,21 @@ import com.example.service.PersonService;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.http.Handler;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component("CourseControllerBean")
 public class CourseController {
 
     private CourseService cs;
     private PersonService ps;
     private ObjectMapper mapper = new ObjectMapper();
 
+    @Autowired
     public CourseController(CourseService cs, PersonService ps){
         this.cs = cs;
         this.ps = ps;

@@ -14,25 +14,54 @@ import com.example.service.CourseService;
 import com.example.service.PersonService;
 import io.javalin.Javalin;
 import io.javalin.http.staticfiles.Location;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class JavalinDriver {
 
+    /*
     private static PersonDao pd = new PersonDaoJDBC();
     private static PersonService ps = new PersonService(pd);
     private static PersonController pc = new PersonController(ps);
+    */
+    //private static PersonService ps;
+    //private static PersonDao pd;
 
+    /*
     private static CourseDao cd = new CourseDaoJDBC();
     private static CourseService cs = new CourseService(cd, pd);
     private static CourseController cc = new CourseController(cs, ps);
+     */
 
+    //private static CourseService cs;
+
+    /*
     private static AssignmentDao ad = new AssignmentDaoJDBC();
     private static AssignmentService as = new AssignmentService(ad);
     private static AssignmentController ac = new AssignmentController(as, cs, ps);
+     */
 
-    private static AuthService aus = new AuthService(pd);
-    private static AuthController auc = new AuthController(aus, ps);
+    //private static AssignmentService as;
+
+    //private static AuthService aus = new AuthService(pd);
+    //private static AuthService aus;
 
     public static void main(String[] args){
+
+        //We need to get our beans from our beans.xml, we will be using the Application Context IOC Container
+        ApplicationContext appContext = new ClassPathXmlApplicationContext("beans.xml");
+
+        //Now we set our services from the application context
+        //The application will get us singleton instances of our beans for us
+        /*
+        ps = appContext.getBean("PersonServiceBean", PersonService.class);
+        cs = appContext.getBean("CourseServiceBean", CourseService.class);
+        as = appContext.getBean("AssignmentServiceBean", AssignmentService.class);
+        aus = appContext.getBean("AuthServiceBean", AuthService.class);
+         */
+
+
+        //pd = appContext.getBean("PersonDaoBean", PersonDaoJDBC.class);
 
         //Establish our Javalin app
         Javalin app = Javalin.create(config -> {
@@ -52,6 +81,11 @@ public class JavalinDriver {
             ctx.result("Received our first message in a post");
         });
         */
+
+        PersonController pc = appContext.getBean("PersonControllerBean", PersonController.class);
+        CourseController cc = appContext.getBean("CourseControllerBean", CourseController.class);
+        AssignmentController ac = appContext.getBean("AssignmentControllerBean", AssignmentController.class);
+        AuthController auc = appContext.getBean("AuthControllerBean", AuthController.class);
 
         Route person = new PersonRoutes(pc);
         Route course = new CourseRoutes(cc);

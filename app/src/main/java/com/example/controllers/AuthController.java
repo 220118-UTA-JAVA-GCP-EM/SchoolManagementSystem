@@ -5,13 +5,17 @@ import com.example.service.AuthService;
 import com.example.service.PersonService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.http.Handler;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component("AuthControllerBean")
 public class AuthController {
 
     private AuthService as;
     private PersonService ps;
     private ObjectMapper mapper = new ObjectMapper();
 
+    @Autowired
     public AuthController(AuthService as, PersonService ps){
         this.ps = ps;
         this.as = as;

@@ -94,3 +94,27 @@
 2022-02-09 10:48:45 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-02-09}
 2022-02-09 10:48:45 INFO  LoggingSingleton:64 - Assignment: Assignment{assignmentId=1, student=Person{id=0, type=null, first='null', last='null', email='null', password='null'}, grade=100.0, done=true, pastDue=false, due=2022-02-09} 
  Was given the grade: 100.0
+2022-02-10 14:18:39 INFO  LoggingSingleton:64 - Assignment: Assignment{assignmentId=1, student=Person{id=0, type=null, first='null', last='null', email='null', password='null'}, grade=80.0, done=true, pastDue=true, due=2022-02-10} 
+ Was given the grade: 80.0
+2022-02-10 14:18:39 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=0, type=null, first='null', last='null', email='null', password='null'}, grade=0.0, done=false, pastDue=false, due=2022-02-10}
+2022-02-10 14:18:39 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-02-09}
+2022-02-10 14:18:39 WARN  LoggingSingleton:45 - Assignment: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=true, pastDue=true, due=2022-02-09} 
+ Was submitted late
+2022-02-10 14:18:39 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-02-11}
+2022-02-10 14:18:39 INFO  LoggingSingleton:50 - Assignment: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=true, pastDue=false, due=2022-02-11} 
+ Was submitted on time
+2022-02-10 14:18:39 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-02-10}
+2022-02-10 14:18:39 INFO  LoggingSingleton:64 - Assignment: Assignment{assignmentId=1, student=Person{id=0, type=null, first='null', last='null', email='null', password='null'}, grade=100.0, done=true, pastDue=false, due=2022-02-10} 
+ Was given the grade: 100.0
+2022-02-15 15:13:01 INFO  LoggingSingleton:64 - Assignment: Assignment{assignmentId=1, student=Person{id=0, type=null, first='null', last='null', email='null', password='null'}, grade=80.0, done=true, pastDue=true, due=2022-02-15} 
+ Was given the grade: 80.0
+2022-02-15 15:13:01 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=0, type=null, first='null', last='null', email='null', password='null'}, grade=0.0, done=false, pastDue=false, due=2022-02-15}
+2022-02-15 15:13:01 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-02-14}
+2022-02-15 15:13:01 WARN  LoggingSingleton:45 - Assignment: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=true, pastDue=true, due=2022-02-14} 
+ Was submitted late
+2022-02-15 15:13:01 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-02-16}
+2022-02-15 15:13:01 INFO  LoggingSingleton:50 - Assignment: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=true, pastDue=false, due=2022-02-16} 
+ Was submitted on time
+2022-02-15 15:13:01 INFO  LoggingSingleton:26 - New assignment created: Assignment{assignmentId=1, student=Person{id=1, type=STUDENT, first='first', last='last', email='email', password='password'}, grade=0.0, done=false, pastDue=false, due=2022-02-15}
+2022-02-15 15:13:01 INFO  LoggingSingleton:64 - Assignment: Assignment{assignmentId=1, student=Person{id=0, type=null, first='null', last='null', email='null', password='null'}, grade=100.0, done=true, pastDue=false, due=2022-02-15} 
+ Was given the grade: 100.0

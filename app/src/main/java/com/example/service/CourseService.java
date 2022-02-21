@@ -17,6 +17,7 @@ public class CourseService {
     private PersonDao pd;
 
     public CourseService(CourseDao cd, PersonDao pd){
+        System.out.println("Spring is injecting the dependencies in my constructor");
         this.cd = cd;
         this.pd = pd;
     }

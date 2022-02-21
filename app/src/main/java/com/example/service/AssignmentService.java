@@ -5,13 +5,19 @@ import com.example.exceptions.AssignmentPastDueException;
 import com.example.models.Assignment;
 import com.example.models.Person;
 import com.example.utils.LoggingSingleton;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.sql.Date;
 import java.util.List;
 
 public class AssignmentService {
 
+    @Autowired
     private AssignmentDao ad;
+
+    public AssignmentService(){
+        System.out.println("Spring is calling the Assignment Service no arg");
+    }
 
     public AssignmentService(AssignmentDao ad){
         this.ad = ad;
@@ -62,6 +68,11 @@ public class AssignmentService {
         ad.updateAssignment(a);
 
         LoggingSingleton.logger.info("Assignment: " + a.toString() + " \n Was given the grade: " + grade);
+    }
+
+    public void setAd(AssignmentDao ad){
+        System.out.println("Hey look at me, I am being autowired");
+        this.ad = ad;
     }
 
 }

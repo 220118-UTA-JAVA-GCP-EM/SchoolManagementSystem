@@ -4,13 +4,16 @@ import com.example.models.Person;
 import com.example.service.PersonService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.http.Handler;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-
+@Component("PersonControllerBean")
 public class PersonController {
 
     private PersonService ps;
     private ObjectMapper mapper = new ObjectMapper();
 
+    @Autowired
     public PersonController(PersonService ps){
         this.ps = ps;
     }

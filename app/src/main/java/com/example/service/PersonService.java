@@ -18,6 +18,12 @@ public class PersonService {
     //The service class is also where other business logic occurs
 
     private PersonDao pd;
+
+    //For setter injection, you need a no args constructor
+    public PersonService(){
+        System.out.println("Spring called the no-arg of person service");
+    }
+
     public PersonService(PersonDao pd){
         this.pd = pd;
     }
@@ -31,6 +37,11 @@ public class PersonService {
         pd.createPerson(p);
 
         return p;
+    }
+
+    public void setPd(PersonDao pd){
+        System.out.println("Spring is setting the person dao to the bean we created in the beans.xml");
+        this.pd = pd;
     }
 
     //Without a database we the other parts of crud are pretty useless here

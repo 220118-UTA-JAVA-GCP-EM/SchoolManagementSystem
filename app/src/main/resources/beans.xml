@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- SETTER INJECTION -->
+    <bean name="PersonDaoBean" scope="singleton" class="com.example.dao.PersonDaoJDBC"/>
+    <bean name="PersonServiceBean" class="com.example.service.PersonService">
+        <property name="pd" ref="PersonDaoBean"/>
+    </bean>
+
+    <!-- CONSTRUCTOR INJECTION -->
+    <bean name="CourseDaoBean" scope="singleton" class="com.example.dao.CourseDaoJDBC"/>
+    <bean name="CourseServiceBean" class="com.example.service.CourseService">
+        <constructor-arg index="0" ref="CourseDaoBean"/>
+        <constructor-arg index="1" ref="PersonDaoBean"/>
+    </bean>
+
+    <!-- AUTOWIRING -->
+    <bean name="AssignmentDaoBean" class="com.example.dao.AssignmentDaoJDBC"/>
+    <bean name="AssignmentServiceBean" class="com.example.service.AssignmentService" autowire="byType"/>
+
+    <!-- Completely autowired no need to define beans in here -->
+    <!-- First we need to setup the stereo type annotations -->
+    <context:annotation-config></context:annotation-config>
+
+    <!-- Setup package scanning for spring too look for component annotations, and automatically create beans
+    based off of them -->
+    <context:component-scan base-package="com.example"/>
+
+
+</beans>

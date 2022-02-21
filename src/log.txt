@@ -224,3 +224,5 @@ Person{id=1, type=STUDENT, first='Morty', last='Smith', email='morty.smith@schoo
 2022-02-03 11:27:43 INFO  LoggingSingleton:33 - New Course created: Course{courseId=0, subject='Prog', number=155, name='Intro to Programming', teacher=null, topics=[], students=[]}
 2022-02-03 11:29:23 INFO  LoggingSingleton:33 - New Course created: Course{courseId=0, subject='Prog', number=200, name='Java', teacher=null, topics=[], students=[]}
 2022-02-03 11:34:30 INFO  LoggingSingleton:33 - New Course created: Course{courseId=0, subject='Reading', number=205, name='Reading Comp', teacher=null, topics=[], students=[]}
+2022-02-17 11:36:31 INFO  LoggingSingleton:33 - New Course created: Course{courseId=0, subject='Javascript', number=250, name='Intro to Angular', teacher=null, topics=[], students=[]}
+2022-02-17 11:38:20 INFO  LoggingSingleton:33 - New Course created: Course{courseId=0, subject='Javascript', number=300, name='Advanced Angular', teacher=null, topics=[], students=[]}
